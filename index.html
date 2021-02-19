@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+sm<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8">
@@ -55,13 +55,13 @@
       <!-- FINE NAVBAR -->
       <!-- INIZIO JUMBOTRON -->
       <section id="jumbotron">
-        <div class="container text-left">
+        <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-7 col-lg-7">
+            <div class="col-xs-12 col-sm-7 col-md-7 text-white text-left">
               <h1>The simplest cloud platform for developers & teams</h1>
               <p>Deply, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, whether you're running one virtual machine or ten thousand.</p>
             </div>
-            <div class="col-xs-12 col-sm-5 col-lg-5">
+            <div class="col-xs-12 col-sm-5 col-md-5">
               <div class="card text-center">
                 <h2>Deploy your app in seconds.</h2>
                 <h2 class="text-blue">Get started now.</h2>
@@ -89,20 +89,30 @@
         <div class="container">
           <div class="row text-center">
             <div class="col-xs-12">
-              <h6 class="text-uppercase">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
+              <h6 class="text-uppercase text-grey">INNOVATIVE BUSINESSES TRUST DIGITALOCEAN</h6>
             </div>
-            <div class="col-xs-12 col-sm-12 col-lg-12">
-              <ul>
-                <li><img src="./assets/img/docker.svg" alt=""></li>
-                <li><img src="./assets/img/gitlab.svg" alt=""></li>
-                <li><img src="./assets/img/slack.svg" alt=""></li>
-                <li><img src="./assets/img/hashicorp.svg" alt=""></li>
-                <li><img src="./assets/img/hashicorp.svg" alt=""></li>
-                <li><img src="./assets/img/splunk.svg" alt=""></li>
-              </ul>
+            <!-- DA SISTEMATE -->
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/docker.svg" alt="">
             </div>
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/gitlab.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/slack.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/hashicorp.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/hashicorp.svg" alt="">
+            </div>
+            <div class="col-xs-6 col-md-2">
+              <img src="./assets/img/splunk.svg" alt="">
+            </div>
+            <!-- DA SISTEMATE -->
             <div class="col-xs-12">
-              <p class="text-blue">View customer stories <i class="fas fa-angle-right"></i></p>
+              <a href="" class="text-blue">View customer stories <i class="fas fa-angle-right"></i></a>
             <div>
           </div>
         </div>
@@ -113,72 +123,293 @@
 
     <!-- INIZIO MAIN -->
     <main>
-
-      <section class="upper-main">
+      <!-- INIZIO DEPLOY MAIN -->
+      <section id="deploy">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-sm-12 col-lg-12 text-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 text-center">
               <h2>Deploy and scale seamlessly</h2>
-              <p>Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+              <p class="text-grey">Our optimized configuration process saves your team time when running and scaling distributed applications, AI & machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
             </div>
-            <div class="col-xs-12 col-sm-2 col-lg-1">
-              <ul>
-                <li>Deploy</li>
-                <li>Menage</li>
-                <li>Secure</li>
-                <li>Scale</li>
-                <li>Monitor</li>
-              </ul>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-sm-offset-1 col-lg-4 col-lg-offset-2">
-              <img src="./assets/img/cluster.png" alt="">
-              <h5>Cluster deployments</h5>
-              <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-lg-4">
-              <img src="./assets/img/compute.png" alt="">
-              <h5>Optimized compute types</h5>
-              <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-sm-offset-3 col-lg-4 col-lg-offset-2">
-              <img src="./assets/img/click.png" alt="">
-              <h5>One-click apps</h5>
-              <p>Skip the install and and configuration process with pre-built open source images suppporting Rails, Cassandra, Docker, and more. </p>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-lg-4">
-              <img src="./assets/img/global.png" alt="">
-              <h5>Global availability</h5>
-              <p>Deply to any of our data center regions around the world.</p>
+              <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">
+                <ul>
+                  <li>Deploy</li>
+                  <li>Menage</li>
+                  <li>Secure</li>
+                  <li>Scale</li>
+                  <li>Monitor</li>
+                </ul>
+              </div>
+              <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <img src="./assets/img/cluster.png" alt="">
+                  <h5>Cluster deployments</h5>
+                  <p>Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly against our API.</p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <img src="./assets/img/compute.png" alt="">
+                  <h5>Optimized compute types</h5>
+                  <p>Get the compute resources you need with Standard or Optimized Droplets.</p>
+                </div>
+                <div class="clearfix visible-lg-block"></div>
+                <div class="clearfix visible-sm-block"></div>
+                <div class="clearfix visible-md-block"></div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <img src="./assets/img/click.png" alt="">
+                  <h5>One-click apps</h5>
+                  <p>Skip the install and and configuration process with pre-built open source images suppporting Rails, Cassandra, Docker, and more. </p>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                  <img src="./assets/img/global.png" alt="">
+                  <h5>Global availability</h5>
+                  <p>Deply to any of our data center regions around the world.</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </section>
-
-      <section>
-
+      <!-- FINE DEPLOY MAIN -->
+      <!-- INIZIO DESIGNED MAIN -->
+      <section id="designed" class="text-center">
+              <div class="container">
+                <h2>Designed for developers</h2>
+                <p>Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+                <div class="carousel">
+                  <i class="fas fa-angle-left"></i>
+                  <img src="./assets/img/page.jpg" alt="">
+                  <i class="fas fa-angle-right"></i>
+                  <p>Create compute servers in 55 seconds or less.</p>
+                </div>
+                <div>
+                  <button type="button" class="btn btn-circle"></button>
+                  <button type="button" class="btn btn-circle"></button>
+                  <button type="button" class="btn btn-circle"></button>
+                  <button type="button" class="btn btn-circle"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section>
-
+      <!-- FINE DESIGNED MAIN -->
+      <!-- INIZIO FEATURES MAIN -->
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="text-center">The features your business needs</h2>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="./assets/img/foglio.png" alt="">
+              <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat, industry-leading pricing structure.</p>
+              <a href="#">Pricing <i class="fas fa-angle-right"></i> </a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="./assets/img/cuffie.png" alt="">
+              <p>Free around-the-clock technical support for all customers, with additional benefits for premium support subscribers. You’ll feel the love.</p>
+              <a href="#">Support <i class="fas fa-angle-right"></i> </a>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <img src="./assets/img/scudo.png" alt="">
+              <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all services.</p>
+              <a href="#"> Security <i class="fas fa-angle-right"></i> </a>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section>
-
+      <!-- FINE FEATURES MAIN -->
+      <!-- INIZIO REGION MAIN -->
+      <section id="region" class="text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <h2 class="text-center">Service your customers around the world from 12 regions.</h2>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <ul>
+                <li>
+                  <span>AMS2</span>
+                  <p>Amsterdam, Netherlands</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>AMS2</span>
+                  <p>Amsterdam, Netherlands</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>BLR1</span>
+                  <p>Bangalore, India</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>FRA1</span>
+                  <p>Frankfurt, German</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>LON1</span>
+                  <p>London, UK</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>NYC1</span>
+                  <p>New York, USA</p>
+                  <a href="">Test Speed </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-xs-12 col-md-6">
+              <ul>
+                <li>
+                  <span>AMS2</span>
+                  <p>Amsterdam, Netherlands</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>AMS2</span>
+                  <p>Amsterdam, Netherlands</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>BLR1</span>
+                  <p>Bangalore, India</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>FRA1</span>
+                  <p>Frankfurt, German</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>LON1</span>
+                  <p>London, UK</p>
+                  <a href="">Test Speed </a>
+                </li>
+                <li>
+                  <span>NYC1</span>
+                  <p>New York, USA</p>
+                  <a href="">Test Speed </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section>
-
+      <!-- FINE REGION MAIN -->
+      <!-- INIZIO DEVELOPMENT MAIN -->
+      <section id="development">
+        <div class="container text-center">
+          <h2>Development teams love DigitalOcean</h2>
+          <div class="carousel">
+            <i class="fas fa-angle-left"></i>
+            <div class="card">
+              <img src="./assets/img/rockerbox.png" alt="">
+              <p>"We have been able to make scaling the technical infrastructure of our business cost effective"</p>
+              <span>Rick O'Toole</span>
+              <span>Co-founder and CTO</span>
+              <a href="#">Read story </a>
+            </div>
+            <i class="fas fa-angle-right"></i>
+          </div>
+            <div class="col-xs-12">
+                <button type="button" class="btn btn-circle"></button>
+                <button type="button" class="btn btn-circle"></button>
+                <button type="button" class="btn btn-circle"></button>
+            </div>
+        </div>
       </section>
-
-      <section>
-
+      <!-- FINE DEVELOPMENT MAIN -->
+      <!-- INIZIO ACCOUNT MAIN -->
+      <section id="account" class="text-center text-white">
+        <h2>Get started now</h2>
+        <button type="button" class="btn btn-default btn-md">Large button</button>
       </section>
-
+      <!-- FINE ACCOUNT MAIN -->
     </main>
+    <!-- FINE MAIN -->
 
+    <!-- INIZIO FOOTER -->
     <footer>
-
+      <div class="container text-white">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-4">
+            <img src="./assets/img/digitalocean-logo.svg" alt="">
+            <p>© 2018 DigitalOcean, LLC. All rights reserved.</p>
+            <p>Proundly made in NY</p>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-youtube"></i>
+            <i class="fab fa-linkedin"></i>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Leadership</a></li>
+            <li><a href="">Link</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Careers</a></li>
+            <li><a href="">Partner Network</a></li>
+            <li><a href="">Referral Program</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Press</a></li>
+            <li><a href="">Legal & Security</a></li>
+          </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4>Products</h4>
+            <ul>
+              <li><a href="">Droplets</a></li>
+              <li><a href="">Spaces</a></li>
+              <li><a href="">Kubermetes</a></li>
+              <li><a href="">Load Balancers</a></li>
+              <li><a href="">Block Storage</a></li>
+              <li><a href="">Tools & Integrations</a></li>
+              <li><a href="">One-Clic Apps</a></li>
+              <li><a href="">API</a></li>
+              <li><a href="">Pricing</a></li>
+              <li><a href="">Documentation</a></li>
+              <li><a href="">Release Notes</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4>Community</h4>
+            <ul>
+              <li><a href="">Tutorials</a></li>
+              <li><a href="">Meetups</a></li>
+              <li><a href="">Q&A</a></li>
+              <li><a href="">Write for Donations</a></li>
+              <li><a href="">Droplets for Demos</a></li>
+              <li><a href="">Hatch</a></li>
+              <li><a href="">Shop Swag</a></li>
+              <li><a href="">Research Program</a></li>
+              <li><a href="">Currents Research</a></li>
+              <li><a href="">Open Source</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-2">
+            <h4>Support</h4>
+            <ul>
+              <li><a href="">Contact support</a></li>
+              <li><a href="">FAQ</a></li>
+              <li><a href="">Network Status</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!--INIZIO HELP  -->
+      <div id="help">
+        <img src="./assets/img/shark.jpg" alt="">
+        <div class="quote">
+          Can I help answer any questions you have about DigitalOcean?
+        </div>
+      </div>
+      <!--FINE HELP  -->
     </footer>
+    <!--FINE FOOTER  -->
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
